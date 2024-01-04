@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 3d Button Design</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-div">
+                <label for="name" class="username">Username</label>
+                <div class="userArea">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" id="name" placeholder="Enter your username" required>
+                </div>
+                <hr>
+            </div>
+            <div class="input-div">
+                <label for="pasword" class="password">Password</label>
+                <div class="userArea">
+                    <i class="fa-solid fa-key "></i>
+                    <input type="password" name="pass" required placeholder="Enter your pasword">
+                </div>
+                <hr>
+            </div>
+            <span class="forgot-password">forgot password?</span>  
+            <button class="login-btn">Login</button>
+            <div class="footer">
+                <p>or Sign Up using</p>
+                <ul class="flexUI">
+                    <a href="http://www.facebook.com" target="_blank">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <li><i class="fa-brands fa-google"></i></li>
+                    </a>
+                </ul>
+                <p class="sign-up">Or Sign Up using</p>
+                <br>
+                <p><a href="" id="sign-up"> Sign Up</a></p>
+            </div>  
+        </form>
+    </div>
+</body>

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fd5d5;
+}
+.container {
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
+.container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.container h2 {
+    font-size: 1.8rem;
+    margin: 2rem;
+    text-align: center;
+}
+.container form input {
+    font-weight: lighter;
+    border: none;
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+.container form .username {
+    margin-bottom: .7rem;
+}
+.container form i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.container form input {
+    font-size: 1rem;
+}
+.userArea {
+    margin-bottom: .7rem;
+}
+.container form .forgot-password {
+    position: absolute;
+    cursor: pointer;
+    right: 0rem;
+    bottom: 17rem;
+    color: rgb(113, 119, 124);
+    font-size: .8rem;
+}
+.input-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .8rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer ul {
+    margin-bottom: 3rem;
+}
+.flexUI {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexUI a {
+    text-decoration: none;
+}
+.footer ul li {
+    list-style: none;
+}
+.flexUI li i {
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    display: flex;
+}
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.fa-google {
+    background-color: orangered;
+}
+.fa-twitter {
+    background-color: rgb(43, 71, 228);
+}
+.fa-facebook-f {
+    background-color: darkblue;
+}
+.t-center{
+    text-align: center;
+}
+.login-btn {
+    border: none;
+    border-radius: 0.8rem;
+    color: whitesmoke;
+    background-color: green;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 0.7rem 0.8rem;
+}
+.login-btn:hover{
+    background-color: darkcyan;
+}
+#sign-up  {
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+#sign-up:hover {
+    color: #8d68c5;
+}
